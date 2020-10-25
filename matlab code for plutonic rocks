@@ -1,5 +1,5 @@
 %matlab code for calculation secular K/La of plutonic rocks
-%put supplementary files (SM_Table 2 and SM_Table 3) and code files in the same folder at MATLAB；
+%put supplementary files (Data S2 and Data S3) and code files in the same folder at MATLAB；
 %read raw data in Excel file
 m1=xlsread('SM_Table 3','Plutonic samples','Z3:Z2612');%read data of La
 m2=xlsread('SM_Table 3','Plutonic samples','H3:H2612');%read data of Latitude
