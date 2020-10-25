@@ -1,5 +1,5 @@
 %matlab code for calculation secular K/La of volcanic rocks
-%put supplementary files (SM_Table 2 and SM_Table 3) and code files in the same folder at MATLAB；
+%put supplementary files (Data S2 and Data S3) and code files in the same folder at MATLAB；
 %read raw data in Excel file
 m1=xlsread('SM_Table 2','Volcanic samples','Z3:Z8700');%read La
 m2=xlsread('SM_Table 2','Volcanic samples','Z3:Z8700');%read La
