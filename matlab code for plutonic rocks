@@ -1,12 +1,12 @@
 %matlab code for calculation secular K/La of plutonic rocks
 %put supplementary files (Data S2 and Data S3) and code files in the same folder at MATLAB；
 %read raw data in Excel file
-m1=xlsread('SM_Table 3','Plutonic samples','Z3:Z2612');%read data of La
-m2=xlsread('SM_Table 3','Plutonic samples','H3:H2612');%read data of Latitude
-m3=xlsread('SM_Table 3','Plutonic samples','I3:I2612');%read data of Longitude
-m4=xlsread('SM_Table 3','Plutonic samples','L3:L2612');%read data of Age
-m5=xlsread('SM_Table 3','Plutonic samples','K3:K2612');%read data of Max_Age
-m6=xlsread('SM_Table 3','Plutonic samples','W3:W2612');%read data of K2O
+m1=xlsread('Table S-4','Plutonic samples','Z3:Z2612');%read data of La
+m2=xlsread('Table S-4','Plutonic samples','H3:H2612');%read data of Latitude
+m3=xlsread('Table S-4','Plutonic samples','I3:I2612');%read data of Longitude
+m4=xlsread('Table S-4','Plutonic samples','L3:L2612');%read data of Age
+m5=xlsread('Table S-4','Plutonic samples','K3:K2612');%read data of Max_Age
+m6=xlsread('Table S-4','Plutonic samples','W3:W2612');%read data of K2O
 
 %raw data cleansing
 m7=m5-m4;%subtract Max_Age from Age
